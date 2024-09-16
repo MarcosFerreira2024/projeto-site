@@ -1074,6 +1074,10 @@ video {
     display: flex;
   }
 
+  .sm\:hidden {
+    display: none;
+  }
+
   .sm\:w-\[200px\] {
     width: 200px;
   }
