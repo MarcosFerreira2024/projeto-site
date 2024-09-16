@@ -4,12 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
-    <title>Document</title>
+    <title>Tryon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <nav>
+<body class="bg-[#151D27] font-[Roboto]">
+    <nav class="flex justify-between items-center  mx-auto p-5 max-w-[1440px]">
+            <div class="flex gap-8">
+                <div class="flex flex-nowrap">
+                    <img src="/img/icone-omega.svg" alt="">
+                    <h1 class="uppercase text-[3rem] text-white font-normal">Tryon</h1>
+                </div>
+                <div class="bg-[#263241] sm:flex items-center p-2  rounded-lg md:w-[350px] sm:w-[200px] hidden  text-[#D0DEFF] ">
+                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#BBBBBB]  bg-transparent w-full">
+                    <button type="search" id="buscar"><img src="/img/icone-busca.svg" alt=""></button>
+
+                </div>
+            </div>
+            
+            <div >
+                <a href="" class="text-[1.3rem] text-[#D0DEFF] font-light lg:flex hidden items-center gap-2 "><img src="/img/icone-coracao.svg" alt="" class="h-[20px]">Favoritos</a>
+            </div>
+            <div>
+                <a href="" class="text-[1.3rem] text-[#D0DEFF] font-light lg:flex hidden items-center gap-2 "><img src="/img/icone-bandeira-brasil.svg" alt="" class="h-[20px]">Brl</a>
+            </div>
+            
+            
+      
         
+        
+        <div >        
+            <a href="" class="text-[1.3rem] text-[#D0DEFF] font-light lg:flex hidden items-center gap-2"><img src="/img/icone-contato.svg" alt="" class="h-[20px]">Contato</a>
+        </div>
+        <div class="underline decoration-[#263241] underline-offset-[5px]">        
+            <a href="" class="text-[1.3rem] text-[#D0DEFF] font-light flex items-center gap-2"><img src="/img/icone-entrar.svg" alt="" class="h-[20px]">Entrar</a>
+        </div >
+        <button class="hover:bg-gray-800 rounded-full"><img src="/img/icone-menu.svg" alt="" class="lg:hidden"></button>
+
+
+
     </nav>
 </body>
+
 </html>
