@@ -46,7 +46,7 @@
         </div>
     </nav>
     
-    <section class="grid lg:mt-28 mt-10 mx-auto max-w-[1320px] w-[100%] h-[100%] overflow-hidden ">
+    <section class="grid lg:mt-28 mt-10 mx-auto max-w-[1320px] w-[100%] h-[100%] overflow-x-scroll md:overflow-hidden ">
         <div class=" flex ">
             <img src="/img/jogos/red-dead.jpg" alt="Red Dead" class="rounded-md object-cover ">
             <img src="/img/jogos/league-of-legends.jpg" alt="League of Legends" class="rounded-md object-cover ">
@@ -55,14 +55,14 @@
     </section>
 
     <section aria-label="Novos Jogos">
-        <div class="flex justify-between max-w-[1320px] mx-auto lg:mt-28 mt-10 gap-3">
+        <div class="flex justify-between max-w-[1320px]  items-center mx-auto lg:mt-28 mt-10 gap-3">
           <div class="flex gap-4">
               <h2 class="text-[1.5rem] text-[#eeee] ">Novidades</h2>
               <img src="/img/icons/deco/icone-seta.svg" alt="" class="w-[30px]">
           </div>
-          <div>
-            <button class=""><img src="" alt=""></button>
-            <button class=""><img src="" alt=""></button>
+          <div class="flex gap-[10px]">
+            <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
+            <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
           </div>
         </div>
         <div class="flex md:overflow-hidden overflow-scroll mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
@@ -121,8 +121,8 @@
             <img src="/img/jogos/callisto-protocol-hover.jpg" alt="" class="absolute img-2 rounded-t-md">
         </div>
     </section>
-    <section aria-label="Melhor do dia">
-       <div class="flex gap-4 items-center lg:mt-[632px] md:mt-[440px] xs:mt-[220px] sm:mt-[320px] mt-[260px] max-w-[1320px] mx-auto ">
+    <section aria-label="Melhor diario">
+       <div class="flex gap-4 items-center lg:mt-[632px] md:mt-[440px]  sm:mt-[320px] mt-[250px] max-w-[1320px] mx-auto ">
           <h2 class="text-[1.5rem] text-[#eeee] ">Top 3 Hoje</h2>
           <img src="/img/icons/icone-trofeu.svg" alt="" class="w-[30px] ">
        </div>
@@ -142,6 +142,64 @@
 
       </div>
     </section>
+    <section aria-label="Must Play">
+      <div class="flex justify-between items-center max-w-[1320px] mx-auto lg:mt-28 mt-10 gap-3">
+        <div class="flex gap-4">
+            <h2 class="text-[1.5rem] text-[#eeee] ">Must Play</h2>
+            <img src="/img/icons/deco/icone-seta.svg" alt="" class="w-[30px]">
+        </div>
+        <div class="flex gap-[10px]">
+          <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
+          <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+        </div>
+      </div>
+      <div class="flex md:overflow-hidden overflow-scroll mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
+        <div class="flex">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/elden-ring.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] sm:text-center text-[#E9ECF0]  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Elden Ring</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/bg3.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-[#E9ECF0] text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Baldurs Gate 3</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/fable.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-[#E9ECF0] text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Monster Hunter Wilds</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/deadlock.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-[#E9ECF0] text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Deadlock</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/tw3.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-[#E9ECF0] text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">The Witcher 3</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/marvel.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-[#E9ECF0] text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Marvel Rivals</p>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/overwatch.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-[#E9ECF0] text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Overwatch 2</p>
+          </a>
+        </div>
+        <!-- Repetir a div acima para adicionar novas imagens-->
+      </div>
+  </section>
+
     
     
     
