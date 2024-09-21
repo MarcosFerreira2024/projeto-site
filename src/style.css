@@ -9,3 +9,19 @@
 .container-imagens:hover .img-1 {
   z-index: -1;
 }
+
+* {
+  font-family: "Roboto";
+}
+
+.texto-click {
+  color: #ffffff !important;
+}
+
+div .texto-hover {
+  color: #b8b8b8;
+}
+
+ul .texto-hover {
+  color: #b8b8b8 ; 
+}
