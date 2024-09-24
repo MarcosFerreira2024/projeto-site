@@ -48,25 +48,29 @@
     </nav>
     <main class="grid justify-center">
         <h1 class="text-[1.5rem] text-[#eeee] mt-10">Destaques Pc</h1>
-
+    
         <div class="md:flex mt-10 justify-center gap-5">
-            <ul class="flex md:flex-col md:mb-0 mb-[20px] md:justify-between  md:gap-0 gap-5">
-                <li><img src="/img/jogos/pc/alan-wake.jpg" alt="" class="block w-[100%] max-w-[275px]"></li>
-                <li><img src="/img/jogos/pc/disco-elysium.jpg" alt="" class="block w-[100%] max-w-[275px]"></li>
-                <li><img src="/img/jogos/pc/dark-souls-1.jpg" alt="" class="block w-[100%] max-w-[275px]"></li> 
+            <ul class="flex md:flex-col md:mb-0 mb-[20px] gap-2 justify-between  md:gap-0" id="galeria">
+                <li>
+                    <img src="/img/jogos/pc/god-of-war.jpg" alt="God of War Ragnarok" class="block w-[100%] max-w-[275px]" data-url="/src/input.css">
+                </li>
+                <li>
+                    <img src="/img/jogos/pc/baldurs-gate.jpg" alt=" Baldurs Gate 3" class="block w-[100%] max-w-[275px]" data-url="/src/output.css">
+                </li>
+                <li>
+                    <img src="/img/jogos/pc/elden-ring.jpg" alt="Elden Ring Shadow of The Erdtree" class="block w-[100%] max-w-[275px]" data-url="/src/index.html">
+                </li>
             </ul>
-            <div>
-                <img src="/img/jogos/pc/god-of-war.jpg" alt="" class="block w-[100%] max-w-[900px] self-center">
+            
+            <div class="relative">
+                <img src="/img/jogos/pc/god-of-war.jpg" alt="God of War Ragnarok" class="block w-[100%] max-w-[900px] self-center" id="imagem-principal" data-url="/src/input.css">
+                <a href="/src/input.css" id="botao-galeria" class="absolute bottom-2 left-2 bg-blue-500 text-white p-2 rounded">Trailer</a>
             </div>
-       
         </div>
-
-
-
-
-
     </main>
 
       <div class="mt-[1000px]">
         a
       </div>
+
+      <script src="/script.js"></script>

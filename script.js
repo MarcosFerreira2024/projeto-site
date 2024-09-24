@@ -1,3 +1,4 @@
+// hover \\
 const textos = document.querySelectorAll(".texto");
 
 function mudar_link() {
@@ -17,8 +18,4 @@ textos.forEach((element) => {
   element.addEventListener("mouseover", add_hover);
   element.addEventListener("mouseout", remove_hover);
 });
-
-// hover \\
-
-
 
