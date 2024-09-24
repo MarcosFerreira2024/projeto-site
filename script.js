@@ -17,3 +17,8 @@ textos.forEach((element) => {
   element.addEventListener("mouseover", add_hover);
   element.addEventListener("mouseout", remove_hover);
 });
+
+// hover \\
+
+
+
