@@ -49,4 +49,12 @@ function selecionar_item(event) {
 
 galeria.forEach((img) => {
   img.addEventListener("click", selecionar_item);
+  img.addEventListener("mouseover", () => {
+    if (img.src !== principal.src){
+    img.classList.add("pointer");
+    }
+  });
+  img.addEventListener("mouseout", () => {
+    img.classList.remove("pointer");
+  });
 });

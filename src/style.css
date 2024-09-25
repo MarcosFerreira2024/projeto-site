@@ -41,3 +41,5 @@ ul .texto-hover {
 .fade-in {
   opacity: 1;
 }
+
+.pointer {cursor: pointer;}
