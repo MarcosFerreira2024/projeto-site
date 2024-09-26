@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/output.css">
+    <title>Tryon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-[#151D27] ">
+    <nav class="flex justify-between items-center  mx-auto p-5 max-w-[1440px] " aria-label="navegação principal">
+            <div class="flex gap-8">
+                <div class="flex flex-nowrap text-[#eeee] texto">
+                    <a href="/src/index.html" class=" flex">
+                    <img src="/img/icons/icone-omega.svg" alt="">
+                    <h1 class="uppercase text-[3rem]">Tryon</h1></a>
+                </div>
+                <div class="bg-[#263241] sm:flex items-center p-2  rounded-lg md:w-[350px] sm:w-[300px] w-[200px] hidden  text-[#eeee] texto ">
+                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#eeee] texto  bg-transparent w-full">
+                    <button type="search" id="buscar"><img src="/img/icons/icone-busca.svg" alt=""></button>
+                </div>
+            </div>
+            <div >
+                <a href="" class="text-[1.3rem] text-[#eeee] texto  lg:flex hidden items-center gap-2 "><img src="/img/icons/icone-coracao.svg" alt="coração vermelho" class="h-[20px]">Favoritos</a>
+            </div>
+            <div>
+                <a href="" class="text-[1.3rem] text-[#eeee] texto  lg:flex hidden items-center gap-2 "><img src="/img/icons/icone-bandeira-brasil.svg" alt="bandeira do brasil" class="h-[20px]">Brl</a>
+            </div>
+        <div >        
+            <a href="#contato" class="text-[1.3rem] text-[#eeee] texto  lg:flex hidden items-center gap-2"><img src="/img/icons/icone-contato.svg" alt="telefone" class="h-[20px]">Contato</a>
+        </div>
+        <div class="underline decoration-[#263241] underline-offset-[5px]">        
+            <a href="" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-entrar.svg" alt="Pessoa" class="md:h-[20px] h-[16px]">Entrar</a>
+        </div >
+        <button class="hover:bg-gray-800 rounded-full"><img src="/img/icons/icone-menu.svg" alt="" class="lg:hidden"></button>
+    </nav>
+
+    <nav class="bg-[#263241]" aria-label="Plataformas">
+            <ul class="flex max-w-[1440px] sm:gap-20  gap-5 py-3 justify-center mx-auto ">
+                <li><a href="" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-mobile.svg" alt="celular" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Mobile</a></li>
+                <li><a href="/src/paginas/pc.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-computador.svg" alt="computador" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Pc</a></li>
+                <li><a href="" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-console.svg" alt="Joystick" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px] ">Console</a></li>              
+            </ul>
+        </div>
+    </nav>
+    <main class="grid justify-center">
+        <h1 class="text-[1.5rem] text-[#eeee] mt-10">Destaques Mobile</h1>
+    
+        <div class="md:flex mt-10 justify-center gap-5">
+            <ul class="flex md:flex-col md:mb-0 mb-[20px] gap-2 justify-between  md:gap-0" id="galeria">
+                <li>
+                    <img src="/img/jogos/mobile/wild-rift.jpg" alt="Wild Rift" class="block w-[100%] max-w-[275px]" data-url="">
+                </li>
+                <li>
+                    <img src="/img/jogos/mobile/pubg.jpg" alt=" Pubg" class="block w-[100%] max-w-[275px]" data-url="">
+                </li>
+                <li>
+                    <img src="/img/jogos/mobile/genshin.jpg" alt="Genshin Impact" class="block w-[100%] max-w-[275px]" data-url="">
+                </li>
+            </ul>
+            
+            <div class="relative">
+                <img src="/img/jogos/mobile/wild-rift.jpg" alt="God of War Ragnarok" class="block w-[100%] max-w-[900px] self-center" id="imagem-principal" data-url="">
+                <a href="" id="botao-galeria" class="absolute bottom-2 left-2 bg-[#3c4d61] text-white text-[1.125rem] font-semibold px-8 py-1 rounded">Trailer</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="mt-40">
+        <div class="max-w-[1320px] mx-auto relative  ">
+            <p class="  text-[1.5rem] text-[#eeee] mb-10">Trending</p>
+            <img src="/img/jogos/mobile/hades-capa.jpg" alt="" class="absolute opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-0 rounded-sm  min-h-[200px]">
+            <img src="/img/jogos/mobile/hades-capa-hover.jpg" alt="" class="absolute opacity-0 transition-opacity duration-300 ease-in-out  hover:opacity-100 rounded-sm  min-h-[200px]">
+        </div>
+
+    </section>
+    <section aria-label="Melhor diario ">
+        <div class="flex gap-4 items-center lg:mt-[632px] md:mt-[500px]  mt-[360px] max-w-[1320px] mx-auto ">
+           <h2 class="text-[1.5rem] text-[#eeee] ">Top 3 Hoje</h2>
+           <img src="/img/icons/icone-trofeu.svg " alt="" class="w-[18px] ">
+        </div>
+        <div class="flex md:gap-[60px] lg:gap-[120px]  gap-[30px] mx-auto justify-center md:mt-8 mt-4 max-w-[1440px]">
+         <a href="" class="text-[#E9ECF0] texto">
+           <img src="/img/jogos/capa-jogos/black-myth.webp" alt="" class="rounded-t-sm ">
+           <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Black Myth Wukong</p>
+         </a>
+         <a href="" class="text-[#E9ECF0] texto">
+           <img src="/img/jogos/capa-jogos/elden-ring.webp" alt="" class="rounded-t-sm ">
+           <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Elden Ring</p>
+         </a>
+         <a href="" class="text-[#E9ECF0] texto">
+           <img src="/img/jogos/capa-jogos/deadlock.webp" alt="" class="rounded-t-sm ">
+           <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Deadlock</p>
+         </a>
+ 
+       </div>
+     </section>
+    </section>
+    <section aria-label="Must Play">
+      <div class="flex justify-between items-center max-w-[1320px] mx-auto lg:mt-28 mt-10 gap-3">
+        <div class="flex gap-4">
+            <h2 class="text-[1.5rem] text-[#eeee] ">Must Play</h2>
+            <img src="/img/icons/deco/icone-seta.svg" alt="" class="w-[30px]">
+        </div>
+        <div class="flex gap-[10px]">
+          <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
+          <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+        </div>
+      </div>
+      <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
+        <div class="flex text-[#E9ECF0] texto">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/clash-of-clans.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Clash of Clans</p>
+          </a>
+        </div>
+        <div class="flex text-[#E9ECF0] texto">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/clash-royale.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Clash Royale</p>
+          </a>
+        </div>
+        <div class="flex text-[#E9ECF0] texto">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/brawl-stars.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Brawl Stars</p>
+          </a>
+        </div>
+        <div class="flex text-[#E9ECF0] texto">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/hades.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Hades</p>
+          </a>
+        </div>
+        <div class="flex text-[#E9ECF0] texto">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/roblox.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Roblox</p>
+          </a>
+        </div>
+        <div class="flex text-[#E9ECF0] texto">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/among-us.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Among Us</p>
+          </a>
+        </div>
+        <div class="flex text-[#E9ECF0] texto">
+          <a href="">
+            <img src="/img/jogos/capa-jogos/genshin.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Genshin</p>
+          </a>
+        </div>
+        <!-- Repetir a div acima para adicionar novas imagens-->
+      </div>
+  </section>
+</section>
+<section aria-label="Atualizados ">
+  <div class="flex justify-between items-center max-w-[1320px] mx-auto lg:mt-28 mt-10 gap-3">
+    <div class="flex gap-4">
+        <h2 class="text-[1.5rem] text-[#eeee] ">Atualizados </h2>
+        <img src="/img/icons/icone-novo.svg" alt="" class="w-[30px]">
+    </div>
+    <div class="flex gap-[10px]">
+      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
+      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+    </div>
+  </div>
+  <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/hades.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154]  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-center rounded-b-sm">Hades</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/warzone.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Warzone Mobile</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/fortnite.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Fortnite</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/pokemon-go.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Pokemon Go</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/subway-surfers.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Subway Surfers</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+        <a href="">
+            <img src="/img/jogos/capa-jogos/free-fire.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+            <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Free fire</p>
+        </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/brawl-stars.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Brawl Stars</p>
+      </a>
+    </div>
+    <!-- Repetir a div acima para adicionar novas imagens-->
+  </div>
+</section>
+</section>
+<section aria-label="Nostalgia">
+  <div class="flex justify-between items-center max-w-[1320px] mx-auto lg:mt-28 mt-10 gap-3">
+    <div class="flex gap-4 items-center">
+        <h2 class="text-[1.5rem] text-[#eeee] ">Direto do Pc</h2>
+        <img src="/img/icons/icone-computador.svg" alt="" class="w-[30px]">
+    </div>
+    <div class="flex gap-[10px]">
+      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
+      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+    </div>
+  </div>
+  <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/fall-guys.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154]  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-center rounded-b-sm">Fall Guys</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/balatro.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Balatro</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/fortnite.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Fortnite</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/wuthering.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Wuthering Waves</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/hades.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Hades</p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/naruto.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Ultimate Ninja Storm
+        </p>
+      </a>
+    </div>
+    <div class="flex text-[#E9ECF0] texto">
+      <a href="">
+        <img src="/img/jogos/capa-jogos/genshin.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
+        <p class="bg-[#324154] text-center text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.75rem] rounded-b-sm">Genshin </p>
+      </a>
+    </div>
+    <!-- Repetir a div acima para adicionar novas imagens-->
+  </div>
+</section>
+<footer class="lg:mt-20 mt-16" id="contato">
+    <div class="bg-[#263241] flex justify-center mx-auto gap-10 md:gap-20">
+      <a href="" class="p-3"><img src="/img/icons/icone-insta.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
+      <a href="" class="p-3" ><img src="/img/icons/icone-face.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
+      <a href="" class="p-3"><img src="/img/icons/icone-zap.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
+    </div>
+    <div class="grid justify-center lg:mt-20 mt-10 text-center max-w-[1320px]   mx-auto">
+      <p class="text-[#E9ECF0] md:text-[1.3rem] sm:text-[1.125rem]">™ & ©2024 tryon. Todos os direitos reservados</p>
+    </div>
+    <div class=" grid grid-cols-2 md:grid-cols-3 gap-[30px] justify-center mx-auto md:mt-24 mt-10 md:gap-[0] max-w-[1320px]  md:mb-20 mb-5 items-center">
+      <a href="/src/paginas/sobre.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click">Sobre</a>
+      <a href="/src/paginas/termos-de-uso.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click ">Termos de Uso</a>
+      <a href="/src/paginas/politica-de-privacidade" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap col-span-2 md:col-auto text-center text-click">Política De Privacidade</a>
+      </div>
+    </div>
+  </footer>
+</body>
+      <script src="/script.js"></script>
