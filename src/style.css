@@ -43,3 +43,7 @@ ul .texto-hover {
 }
 
 .pointer {cursor: pointer;}
+
+#imageSlider {
+  scroll-behavior: smooth;
+}

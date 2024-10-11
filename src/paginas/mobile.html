@@ -19,7 +19,7 @@
                     <h1 class="uppercase text-[3rem]">Tryon</h1></a>
                 </div>
                 <div class="bg-[#263241] sm:flex items-center p-2  rounded-lg md:w-[350px] sm:w-[300px] w-[200px] hidden  text-[#eeee] texto ">
-                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#eeee] texto  bg-transparent w-full">
+                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#eeee] texto  bg-transparent w-full outline-none">
                     <button type="search" id="buscar"><img src="/img/icons/icone-busca.svg" alt=""></button>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             <ul class="flex max-w-[1440px] sm:gap-20  gap-5 py-3 justify-center mx-auto ">
                 <li><a href="/src/paginas/mobile.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-mobile.svg" alt="celular" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Mobile</a></li>
                 <li><a href="/src/paginas/pc.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-computador.svg" alt="computador" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Pc</a></li>
-                <li><a href="" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-console.svg" alt="Joystick" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px] ">Console</a></li>              
+                <li><a href="/src/paginas/console.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-console.svg" alt="Joystick" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px] ">Console</a></li>              
             </ul>
         </div>
     </nav>
@@ -63,17 +63,17 @@
             </ul>
             
             <div class="relative">
-                <img src="/img/jogos/mobile/wild-rift.jpg" alt="God of War Ragnarok" class="block w-[100%] max-w-[900px] self-center" id="imagem-principal" data-url="">
-                <a href="" id="botao-galeria" class="absolute bottom-2 left-2 bg-[#3c4d61] text-white text-[1.125rem] font-semibold px-8 py-1 rounded">Trailer</a>
+                <img src="/img/jogos/mobile/wild-rift.jpg" alt="Wild Rift" class="block md:w-[100%] object-cover  md:max-w-[900px] self-center" id="imagem-principal" data-url="">
+                <a href="" id="botao-galeria" class="absolute bottom-2 left-2 bg-[#3c4d61] text-white md:text-[1.125rem] font-semibold md:px-8 md:py-1 px-4 py-[0.5px] rounded">Trailer</a>
             </div>
         </div>
     </main>
 
-    <section class="mt-40">
+    <section class="md:mt-40 mt-16">
         <div class="max-w-[1320px] mx-auto relative  ">
             <p class="  text-[1.5rem] text-[#eeee] mb-10">Trending</p>
-            <img src="/img/jogos/mobile/hades-capa.jpg" alt="" class="absolute opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-0 rounded-sm  min-h-[200px]">
-            <img src="/img/jogos/mobile/hades-capa-hover.jpg" alt="" class="absolute opacity-0 transition-opacity duration-300 ease-in-out  hover:opacity-100 rounded-sm  min-h-[200px]">
+            <img src="/img/jogos/mobile/hades-capa.jpg" alt="" class="absolute opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-0 rounded-sm  min-h-[200px] object-cover">
+            <img src="/img/jogos/mobile/hades-capa-hover.jpg" alt="" class="absolute opacity-0 transition-opacity duration-300 ease-in-out  hover:opacity-100 rounded-sm  min-h-[200px] object-cover">
         </div>
 
     </section>
@@ -85,7 +85,7 @@
         <div class="flex md:gap-[60px] lg:gap-[120px]  gap-[30px] mx-auto justify-center md:mt-8 mt-4 max-w-[1440px]">
          <a href="" class="text-[#E9ECF0] texto">
            <img src="/img/jogos/capa-jogos/black-myth.webp" alt="" class="rounded-t-sm ">
-           <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Black Myth Wukong</p>
+           <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-center rounded-b-sm">Black Myth</p>
          </a>
          <a href="" class="text-[#E9ECF0] texto">
            <img src="/img/jogos/capa-jogos/elden-ring.webp" alt="" class="rounded-t-sm ">
@@ -106,15 +106,15 @@
             <img src="/img/icons/deco/icone-seta.svg" alt="" class="w-[30px]">
         </div>
         <div class="flex gap-[10px]">
-          <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
-          <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+          <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[25px] "></button>
+          <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[25px] " ></button>
         </div>
       </div>
       <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
         <div class="flex text-[#E9ECF0] texto">
           <a href="">
             <img src="/img/jogos/capa-jogos/clash-of-clans.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
-            <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Clash of Clans</p>
+            <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-center rounded-b-sm">Clash of Clans</p>
           </a>
         </div>
         <div class="flex text-[#E9ECF0] texto">
@@ -164,8 +164,8 @@
         <img src="/img/icons/icone-novo.svg" alt="" class="w-[30px]">
     </div>
     <div class="flex gap-[10px]">
-      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
-      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[25px] "></button>
+      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[25px] " ></button>
     </div>
   </div>
   <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
@@ -222,8 +222,8 @@
         <img src="/img/icons/icone-computador.svg" alt="" class="w-[30px]">
     </div>
     <div class="flex gap-[10px]">
-      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
-      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[25px] "></button>
+      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[25px] " ></button>
     </div>
   </div>
   <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
@@ -285,7 +285,7 @@
     <div class=" grid grid-cols-2 md:grid-cols-3 gap-[30px] justify-center mx-auto md:mt-24 mt-10 md:gap-[0] max-w-[1320px]  md:mb-20 mb-5 items-center">
       <a href="/src/paginas/sobre.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click">Sobre</a>
       <a href="/src/paginas/termos-de-uso.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click ">Termos de Uso</a>
-      <a href="/src/paginas/politica-de-privacidade" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap col-span-2 md:col-auto text-center text-click">Política De Privacidade</a>
+      <a href="/src/paginas/politica-de-privacidade.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap col-span-2 md:col-auto text-center text-click">Política De Privacidade</a>
       </div>
     </div>
   </footer>

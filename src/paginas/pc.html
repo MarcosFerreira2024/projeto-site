@@ -19,7 +19,7 @@
                     <h1 class="uppercase text-[3rem]">Tryon</h1></a>
                 </div>
                 <div class="bg-[#263241] sm:flex items-center p-2  rounded-lg md:w-[350px] sm:w-[300px] w-[200px] hidden  text-[#eeee] texto ">
-                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#eeee] texto  bg-transparent w-full">
+                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#eeee] texto  bg-transparent w-full outline-none">
                     <button type="search" id="buscar"><img src="/img/icons/icone-busca.svg" alt=""></button>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             <ul class="flex max-w-[1440px] sm:gap-20  gap-5 py-3 justify-center mx-auto ">
                 <li><a href="/src/paginas/mobile.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-mobile.svg" alt="celular" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Mobile</a></li>
                 <li><a href="/src/paginas/pc.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-computador.svg" alt="computador" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Pc</a></li>
-                <li><a href="" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-console.svg" alt="Joystick" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px] ">Console</a></li>              
+                <li><a href="/src/paginas/console.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="/img/icons/icone-console.svg" alt="Joystick" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px] ">Console</a></li>              
             </ul>
         </div>
     </nav>
@@ -69,9 +69,9 @@
         </div>
     </main>
 
-    <section class="mt-40">
+    <section class="md:mt-40 mt-12">
         <div class="max-w-[1320px] mx-auto relative  ">
-            <p class="  text-[1.5rem] text-[#eeee] mb-10">Chegando .</p>
+            <p class="  text-[1.5rem] text-[#eeee] mb-10">Chegando </p>
             <img src="/img/jogos/pc/monster-hunter.jpg" alt="" class="absolute opacity-100 transition-opacity duration-300 ease-in-out hover:opacity-0 rounded-sm  min-h-[200px]">
             <img src="/img/jogos/pc/monster-hunter-hover.jpg" alt="" class="absolute opacity-0 transition-opacity duration-300 ease-in-out  hover:opacity-100 rounded-sm  min-h-[200px]">
             <p class="bg-[#263241] text-white md:px-10 md:py-2 px-5 py-1 absolute  md:text-[1.3rem] text-[1rem] rounded-br-md  text-center ">Fev / 2025</p>
@@ -86,7 +86,7 @@
         <div class="flex md:gap-[60px] lg:gap-[120px]  gap-[30px] mx-auto justify-center md:mt-8 mt-4 max-w-[1440px]">
          <a href="" class="text-[#E9ECF0] texto">
            <img src="/img/jogos/capa-jogos/black-myth.webp" alt="" class="rounded-t-sm ">
-           <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Black Myth Wukong</p>
+           <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm"> Black Myth</p>
          </a>
          <a href="" class="text-[#E9ECF0] texto">
            <img src="/img/jogos/capa-jogos/elden-ring.webp" alt="" class="rounded-t-sm ">
@@ -107,15 +107,15 @@
             <img src="/img/icons/deco/icone-seta.svg" alt="" class="w-[18px]">
         </div>
         <div class="flex gap-[10px]">
-          <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
-          <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+          <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[20px] "></button>
+          <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[20px] " ></button>
         </div>
       </div>
       <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
         <div class="flex text-[#E9ECF0] texto">
           <a href="">
             <img src="/img/jogos/capa-jogos/elden-ring.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
-            <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Elden Ring</p>
+            <p class="bg-[#324154] text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem]  rounded-b-sm">Elden Ring</p>
           </a>
         </div>
         <div class="flex text-[#E9ECF0] texto">
@@ -165,15 +165,15 @@
         <img src="/img/icons/icone-novo.svg" alt="" class="w-[30px]">
     </div>
     <div class="flex gap-[10px]">
-      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
-      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[20px] "></button>
+      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[20px] " ></button>
     </div>
   </div>
   <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
     <div class="flex text-[#E9ECF0] texto">
       <a href="">
         <img src="/img/jogos/capa-jogos/god-of-war.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
-        <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">God of war</p>
+        <p class="bg-[#324154] text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem]  rounded-b-sm">God of war</p>
       </a>
     </div>
     <div class="flex text-[#E9ECF0] texto">
@@ -223,15 +223,15 @@
         <img src="/img/icons/icone-dolar.svg" alt="" class="w-[18px]">
     </div>
     <div class="flex gap-[10px]">
-      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt=""></button>
-      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt=""></button>
+      <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[20px] "></button>
+      <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[20px] " ></button>
     </div>
   </div>
   <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
     <div class="flex text-[#E9ECF0] texto">
       <a href="">
         <img src="/img/jogos/capa-jogos/fortnite.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
-        <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Fortnite</p>
+        <p class="bg-[#324154] text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] rounded-b-sm">Fortnite</p>
       </a>
     </div>
     <div class="flex text-[#E9ECF0] texto">
@@ -273,21 +273,21 @@
     <!-- Repetir a div acima para adicionar novas imagens-->
   </div>
 </section>
-<footer class="lg:mt-20 mt-16" id="contato">
-    <div class="bg-[#263241] flex justify-center mx-auto gap-10 md:gap-20">
-      <a href="" class="p-3"><img src="/img/icons/icone-insta.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
-      <a href="" class="p-3" ><img src="/img/icons/icone-face.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
-      <a href="" class="p-3"><img src="/img/icons/icone-zap.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
+<footer class="lg:mt-28 mt-16" id="contato">
+  <div class="bg-[#263241] flex justify-center mx-auto gap-10 md:gap-20">
+    <a href="" class="p-3"><img src="/img/icons/icone-insta.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
+    <a href="" class="p-3" ><img src="/img/icons/icone-face.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
+    <a href="" class="p-3"><img src="/img/icons/icone-zap.svg" alt="" class="sm:w-[30px] w-[25px]"></a>
+  </div>
+  <div class="grid justify-center lg:mt-40 mt-10 text-center max-w-[1320px]   mx-auto">
+    <p class="text-[#E9ECF0] md:text-[1.3rem] sm:text-[1.125rem]">™ & ©2024 tryon. Todos os direitos reservados</p>
+  </div>
+  <div class=" grid grid-cols-2 md:grid-cols-3 gap-[30px] justify-center mx-auto md:mt-40 mt-10 md:gap-[0] max-w-[1320px]  md:mb-20 mb-10 items-center">
+    <a href="/src/paginas/sobre.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click">Sobre</a>
+    <a href="/src/paginas/termos-de-uso.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click ">Termos de Uso</a>
+    <a href="/src/paginas/politica-de-privacidade.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap col-span-2 md:col-auto text-center text-click">Política De Privacidade</a>
     </div>
-    <div class="grid justify-center lg:mt-20 mt-10 text-center max-w-[1320px]   mx-auto">
-      <p class="text-[#E9ECF0] md:text-[1.3rem] sm:text-[1.125rem]">™ & ©2024 tryon. Todos os direitos reservados</p>
-    </div>
-    <div class=" grid grid-cols-2 md:grid-cols-3 gap-[30px] justify-center mx-auto md:mt-24 mt-10 md:gap-[0] max-w-[1320px]  md:mb-20 mb-5 items-center">
-      <a href="/src/paginas/sobre.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click">Sobre</a>
-      <a href="/src/paginas/termos-de-uso.html" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap text-center text-click ">Termos de Uso</a>
-      <a href="/src/paginas/politica-de-privacidade" class="text-[#E9ECF0] texto md:text-[1.3rem] sm:text-[1.125rem] text-nowrap col-span-2 md:col-auto text-center text-click">Política De Privacidade</a>
-      </div>
-    </div>
-  </footer>
+  </div>
+</footer>
 </body>
       <script src="/script.js"></script>

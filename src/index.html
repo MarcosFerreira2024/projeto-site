@@ -18,7 +18,7 @@
                     <h1 class="uppercase text-[3rem] text-[#eeee] ">Tryon</h1>
                 </div>
                 <div class="bg-[#263241] sm:flex items-center p-2  rounded-lg md:w-[350px] sm:w-[300px] w-[200px] hidden  text-[#eeee] texto ">
-                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#eeee] texto  bg-transparent w-full">
+                    <input type="search" placeholder="Buscar" id="buscar" class="text-[1.5rem] placeholder:text-[#eeee] texto  bg-transparent w-full outline-none">
                     <button type="search" id="buscar"><img src="../img/icons/icone-busca.svg" alt=""></button>
                 </div>
             </div>
@@ -39,23 +39,27 @@
 
     <nav class="bg-[#263241]" aria-label="Plataformas">
             <ul class="flex max-w-[1440px] sm:gap-20  gap-5 py-3 justify-center mx-auto ">
-                <li><a href="" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="../img/icons/icone-mobile.svg" alt="celular" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Mobile</a></li>
+                <li><a href="/src/paginas/mobile.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="../img/icons/icone-mobile.svg" alt="celular" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Mobile</a></li>
                 <li><a href="/src/paginas/pc.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="../img/icons/icone-computador.svg" alt="computador" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px]">Pc</a></li>
-                <li><a href="" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="../img/icons/icone-console.svg" alt="Joystick" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px] ">Console</a></li>              
+                <li><a href="/src/paginas/console.html" class="md:text-[1.3rem] sm:text-[1.125rem] text-[#eeee] texto  flex items-center gap-2"><img src="../img/icons/icone-console.svg" alt="Joystick" class="md:h-[30px] h-[20px] sm:pt-[5px] pt-[3px] ">Console</a></li>              
             </ul>
         </div>
     </nav>
     
-    <section class="relative max-w-[1320px] mx-auto mt-10 lg:mt-28  overflow-hidden">
-      <div class="flex ">
-          <img src="../img/jogos/red-dead.jpg" alt="Red Dead" class="rounded-md object-cover w-full ">
-          <img src="../img/jogos/league-of-legends.jpg" alt="League of Legends" class="rounded-md object-cover w-full ">
-          <img src="../img/jogos/monster-hunter.jpg" alt="Monster Hunter" class="rounded-md object-cover w-full ">
+    <section class="relative max-w-[1320px] mx-auto mt-10 lg:mt-28 overflow-hidden">
+      <div id="imageSlider" class="flex w-full overflow-x-hidden scroll-smooth">
+        <img src="../img/jogos/red-dead.jpg" alt="Red Dead" class="rounded-md object-cover w-full min-w-full">
+        <img src="../img/jogos/league-of-legends.jpg" alt="League of Legends" class="rounded-md object-cover w-full min-w-full">
+        <img src="../img/jogos/monster-hunter.jpg" alt="Monster Hunter" class="rounded-md object-cover w-full min-w-full">
       </div>
-      <button id="prevBtn" class="absolute left-[45px]  md:top-[45%] sm:top-[35%] top-[35%]"><img src="/img/jogos/icone-seta-esquerda.svg" alt="Anterior"></button>
-      <button id="nextBtn" class="absolute right-[45px] md:top-[45%] sm:top-[35%] top-[35%]"><img src="/img/jogos/icone-seta-direita.svg" alt="Próximo"></button>
+      <button id="prevBtn" class="absolute left-[45px] md:top-[45%] top-[45%] hidden">
+        <img src="/img/jogos/icone-seta-esquerda.svg" alt="Anterior" class="w-[20px] md:w-[30px]">
+      </button>
+      <button id="nextBtn" class="absolute right-[45px] md:top-[45%] top-[45%]">
+        <img src="/img/jogos/icone-seta-direita.svg" alt="Próximo" class="w-[20px] md:w-[30px]">
+      </button>
     </section>
-
+    
     <section aria-label="Novos Jogos">
         <div class="flex justify-between max-w-[1320px]  items-center mx-auto lg:mt-28 mt-10 gap-3">
           <div class="flex gap-4">
@@ -63,15 +67,15 @@
               <img src="../img/icons/deco/icone-seta.svg" alt="" class="w-[30px]">
           </div>
           <div class="flex gap-[10px]">
-            <button class=""><img src="../img/icons/icone-seta-esquerda.svg" alt=""></button>
-            <button class=""><img src="../img/icons/icone-seta-direita.svg" alt=""></button>
+            <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[20px] "></button>
+            <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[20px] " ></button>
           </div>
         </div>
         <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
           <div class="flex text-[#E9ECF0] texto ">
             <a href="">
               <img src="../img/jogos/capa-jogos/black-myth.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
-              <p class="bg-[#324154] sm:text-center   text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Black Myth Wukong</p>
+              <p class="bg-[#324154] sm:text-center   text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-center rounded-b-sm"> Black Myth</p>
             </a>
           </div>
           <div class="flex text-[#E9ECF0] texto ">
@@ -131,7 +135,7 @@
        <div class="flex md:gap-[60px] lg:gap-[120px]  gap-[30px] mx-auto justify-center md:mt-8 mt-4 max-w-[1440px]">
         <a href="" class="text-[#E9ECF0] texto">
           <img src="../img/jogos/capa-jogos/black-myth.webp" alt="" class="rounded-t-sm md:min-w-[220px]  min-w-[105px]">
-          <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Black Myth Wukong</p>
+          <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-center rounded-b-sm"> Black Myth</p>
         </a>
         <a href="" class="text-[#E9ECF0] texto">
           <img src="../img/jogos/capa-jogos/elden-ring.webp" alt="" class="rounded-t-sm md:min-w-[220px]  min-w-[105px]">
@@ -151,15 +155,15 @@
             <img src="../img/icons/deco/icone-seta.svg" alt="" class="w-[30px]">
         </div>
         <div class="flex gap-[10px]">
-          <button class=""><img src="../img/icons/icone-seta-esquerda.svg" alt=""></button>
-          <button class=""><img src="../img/icons/icone-seta-direita.svg" alt=""></button>
+          <button class=""><img src="/img/icons/icone-seta-esquerda.svg" alt="" class="md:w-[48px] w-[20px] "></button>
+          <button class=""><img src="/img/icons/icone-seta-direita.svg" alt="" class="md:w-[48px] w-[20px] " ></button>
         </div>
       </div>
       <div class="flex overflow-hidden  mx-auto max-w-[1320px] w-[100%] h-[100%] gap-[20px] mt-4 ">
         <div class="flex text-[#E9ECF0] texto">
           <a href="">
             <img src="../img/jogos/capa-jogos/elden-ring.webp" alt="" class="rounded-t-sm md:min-w-[220px] sm:min-w-[205px] min-w-[145px]">
-            <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-left rounded-b-sm">Elden Ring</p>
+            <p class="bg-[#324154] sm:text-center  text-nowrap md:p-1 p-0.5 md:text-[1.125rem] text-[0.725rem] text-center rounded-b-sm">Elden Ring</p>
           </a>
         </div>
         <div class="flex text-[#E9ECF0] texto">
